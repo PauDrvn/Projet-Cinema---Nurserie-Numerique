@@ -1,0 +1,302 @@
+#logo{
+  width: 150px;
+  height: 150px;
+}
+
+#button1 {
+  background-color: #d9d9d9;
+  margin-left: 60px;
+  border-radius: 10px;
+  border-color: rgb(233, 78, 6);
+  padding: 10px;
+}
+
+#comment_area {
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(233, 78, 6);
+  background-color: #d9d9d9;
+}
+
+/* Menu en tête */
+.menu,
+.en-tete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bar,
+#news1 {
+  flex: 1;
+  padding-right: 30px;
+  font-size: 16px;
+  border: 2px solid #3d3b3b;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  border-radius: 15px 20px;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 8px;
+  font-size: 14px;
+  border: 2px solid rgb(233, 78, 6);
+}
+
+#loupe,
+#news {
+  padding: 6px 6px;
+  background-color: #d9d9d9;
+  color: #3d3b3b;
+  border-radius: 70px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(233, 78, 6);
+}
+
+#sortie,
+#connexion,
+#suivez-nous {
+  background-color: #d9d9d9;
+  border-radius: 15px 20px;
+  color: black;
+  position: relative;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 10px;
+  padding: 6px 50px 6px 50px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border: 2px solid rgb(233, 78, 6);
+}
+
+.genre {
+  background-color: #d9d9d9;
+  border-radius: 15px 20px;
+  color: black;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 10px;
+  padding: 1px 50px 1px 50px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 2px solid rgb(233, 78, 7);
+}
+
+.dropdown-menu {
+  text-decoration: none;
+  display: none;
+  background-color: #bcbcbc;
+  border: 2px solid rgb(233, 78, 6);
+  border-radius: 5%;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+#suivez-nous,
+#contact,
+#propos,
+#mentions {
+  background-color: #d9d9d9;
+  border-radius: 15px 20px;
+  color: black;
+  position: relative;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 10px;
+  padding: 5px 50px 5px 50px;
+  text-decoration: none;
+  font-size: 13px;
+  border: 2px solid rgb(233, 78, 6);
+}
+
+#mail {
+  flex: 1;
+  padding-right: 50px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  border-radius: 15px 20px;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 8px;
+  font-size: 13px;
+  border: 2px solid rgb(233, 78, 6);
+}
+
+.genre:hover,
+#mail:hover,
+#sortie:hover,
+#suivez-nous:hover,
+#contact:hover,
+#propos:hover,
+#mentions:hover,
+.dropdown-menu:hover,
+#loupe:hover,
+#news1:hover,
+#news:hover,
+#connexion:hover,
+#bar:hover {
+  background-color: rgb(233, 78, 6);
+  border: 2px solid rgb(233, 78, 6);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 {
+  color: rgb(233, 78, 6);
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background-image: url(../Image/background_signs_stars.jpg);
+  background-size: cover;
+}
+
+.div1 {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  margin: 0px;
+}
+
+.div2 {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  margin: 60px;
+}
+
+#affiche_signs {
+  height: 90vh;
+  width: 50vh;
+  border: solid 3px;
+  border-color: rgba(255, 104, 3, 0.747);
+  border-radius: 20px;
+}
+
+#screenshot_signs_family_field {
+  height: 70vh;
+  width: 50wh;
+  border: solid 3px;
+  border-color: rgba(255, 104, 3, 0.747);
+  border-radius: 20px;
+}
+
+#screenshot_signs_family_helmet {
+  height: 300px;
+  width: 600px;
+  border: solid 3px;
+  border-color: rgba(255, 104, 3, 0.747);
+  border-radius: 20px;
+}
+
+#screenshot_signs_field {
+  height: 50vh;
+  width: 50wh;
+  border: solid 3px;
+  border-color: rgba(255, 104, 3, 0.747);
+  border-radius: 20px;
+}
+
+.contenu1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.contenu4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+#affiches {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.alignfooter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+#creditmovie {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid;
+  border-radius: 30px;
+  border-color: rgba(255, 104, 3, 0.747);
+  list-style: inside none;
+}
+
+#director,
+#actors {
+  list-style: circle;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  text-decoration: underline;
+  color: rgb(233, 78, 6);
+}
+
+.contenu2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid;
+  border-color: rgba(255, 104, 3, 0.747);
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#traileryoutube {
+  border: solid 3px;
+  border-color: rgba(235, 100, 10, 0.562);
+  border-radius: 20px;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+/* Icone fav */
+#btn-fav {
+  border: none;
+}
+
+.btn-fav-clic {
+  color: red;
+}

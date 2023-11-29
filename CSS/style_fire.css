@@ -1,0 +1,319 @@
+#logo{
+  width: 150px;
+  height: 150px;
+}
+
+#button1 {
+  background-color: #d9d9d9;
+  margin-left: 60px;
+  border-radius: 10px;
+  border-color: rgb(74, 241, 116);
+  padding: 10px;
+}
+
+#comment_area {
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(74, 241, 116);
+  background-color: #d9d9d9;
+}
+
+/* Menu en tête */
+.menu, .en-tete {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+#bar, #news1{
+flex: 1;
+padding-right: 30px;
+   font-size: 16px;
+    border: 2px solid #3d3b3b;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 14px;
+   border: 2px solid;
+  border-color: rgb(74, 241, 116);
+}
+
+#loupe, #news{
+    padding: 6px 6px;
+    background-color: #D9D9D9;
+    color: #3d3b3b;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-color: rgb(74, 241, 116);
+
+}
+
+#sortie, #connexion, #suivez-nous {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 6px 50px 6px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   border:2px solid #ccc;
+     border-color: rgb(74, 241, 116);
+}
+
+.genre {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 1px 50px 1px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+  border: 2px solid;
+  border-color: rgb(74, 241, 116);
+}
+
+.dropdown-menu{
+    text-decoration: none;
+    display: none;
+    background-color: #bcbcbc;
+    border: 2px solid;
+    border-color: rgb(74, 241, 116);
+    border-radius: 5%;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+    
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.genre:hover, #mail:hover,#sortie:hover, #suivez-nous:hover, #contact:hover, #propos:hover, #mentions:hover, .dropdown-menu:hover, #loupe:hover, #news1:hover,#news:hover, #connexion:hover, #bar:hover {
+  background-color: rgb(74, 241, 116);
+  border: 2px solid rgb(74, 241, 116);
+}
+
+
+h1 {
+  color: rgb(146, 146, 8);
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 {
+  color: rgb(0, 155, 39);
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-style: normal;
+  background-color: grey;
+  padding: 10px;
+  border: solid;
+  border-color: rgba(1, 141, 122, 0.712);
+  text-decoration: none;
+  height: 80px;
+  width: 150px;
+}
+
+h3:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(74, 241, 116);
+}
+
+#newsletter {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+  margin: 10px;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  border: 2px solid;
+  border-color: rgb(74, 241, 116);
+}
+
+#newsletter:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(74, 241, 116);
+  box-shadow: 0 0 20px rgb(74, 241, 116);
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background-image: url(../Image/background_night-stars-starry-sky-wallpaper.jpg);
+  background-size: cover;
+  width: 100wh;
+}
+
+
+.div1 {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  margin: 0px;
+}
+
+.div2 {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  margin: 50px;
+}
+
+#affiche_fireinthesky {
+  height: 90vh;
+  width: 45wh;
+  border: solid 3px;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 20px;
+}
+
+#screenshot_fireinthesky {
+  height: 50vh;
+  width: 30wh;
+  border: solid 3px;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 20px;
+}
+
+#screenshot_fireintheskytravis {
+  height: 30vh;
+  width:  20wh;
+  border: solid 3px;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 20px;
+}
+
+#screenshot_fireintheskytruck {
+  height: 50vh;
+  width: 45wh;
+  border: solid 3px;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 20px;
+}
+
+.contenu1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.contenu4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+
+/* Footer */
+footer {
+  background-size: cover;
+  padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+#suivez-nous, #contact, #propos, #mentions {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    text-decoration: none;
+   font-size: 13px;
+   border:2px solid;
+  border-color: rgb(74, 241, 116);
+}
+#mail {
+flex: 1;
+padding-right: 50px;
+   font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 13px;
+      border-color: rgb(74, 241, 116);
+}
+
+
+#creditmovie {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid;
+  border-radius: 30px;
+  border-color: rgba(211, 233, 16, 0.829);
+  list-style: inside none;
+}
+
+#director,
+#actors {
+  list-style: circle;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  text-decoration: underline;
+  color: rgb(0, 155, 39);
+}
+
+.contenu2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#traileryoutube {
+  border: solid 3px;
+  border-color: rgba(211, 233, 16, 0.829);
+  border-radius: 20px;
+}
+
+
+#btn-fav{
+    border:none;
+}
+
+/* Icone fav */
+    .btn-fav-clic {
+        color: red;
+    }

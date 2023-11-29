@@ -1,0 +1,160 @@
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#button1{
+    background-color: gray;
+    padding: 20px;
+    text-size-adjust: 15px;
+    border-top: 10px;
+border :solid; 
+}
+
+#button2{
+    background-color: gray;
+    color: black;
+    padding:  20px ; 
+    text-size-adjust: 15px;
+    border-top: 10px;
+    border: solid;
+
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+
+body{background-image: url(../Image/Parasite-Intro.webp);    
+}
+
+.div2{
+  color: #181818;
+        justify-content: space-between;
+        text-align: center;
+        display: flex;
+        position: relative;bottom: 0px;
+}
+.div1 {
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+
+}
+  
+      
+#affiche{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+  }
+
+  /* Menu en tête */
+.menu, .en-tete {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+#bar, #news1{
+flex: 1;
+padding-right: 30px;
+   font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 14px;
+   border:2px solid #ccc;
+}
+#loupe, #news{
+    padding: 6px 6px;
+    background-color: #D9D9D9;
+    color: #3d3b3b;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 25px;
+    height: 25px;
+
+}
+
+#sortie, #connexion, #suivez-nous {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 6px 50px 6px 50px;
+    text-align: center;
+    text-decoration: none;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border:2px solid #ccc;
+}
+
+.genre{
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 1px 50px 1px 50px;
+    text-align: center;
+    text-decoration: none;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border:2px solid #ccc;
+}
+
+.dropdown-menu{
+    text-decoration: none;
+    display: none;
+    position: relative;
+    background-color: #bcbcbc;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+    
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#suivez-nous, #contact, #propos, #mentions {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    text-decoration: none;
+   font-size: 13px;
+   border:2px solid #ccc;
+}
+#mail {
+flex: 1;
+padding-right: 50px;
+   font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 13px;
+   border:2px solid #ccc;
+}

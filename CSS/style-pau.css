@@ -1,0 +1,311 @@
+/* Logo */
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+/* Background connexion - inscription - acceuil */
+body
+{
+background-image: url(../Image/co-inscription.jpg);
+background-size: cover;
+}
+
+#body-accueil{
+    background-image: url(../Image/accueil.jpg);
+    background-size: cover;
+}
+
+/* Menu en tête */
+.menu, .en-tete {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+#bar, #news1{
+flex: 1;
+padding-right: 30px;
+   font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 14px;
+   border:2px solid #ccc;
+}
+#loupe, #news{
+    padding: 6px 6px;
+    background-color: #D9D9D9;
+    color: #3d3b3b;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 25px;
+    height: 25px;
+
+}
+
+#sortie, #connexion, #suivez-nous {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 6px 50px 6px 50px;
+    text-align: center;
+    text-decoration: none;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border:2px solid #ccc;
+}
+
+.genre{
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 1px 50px 1px 50px;
+    text-align: center;
+    text-decoration: none;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border:2px solid #ccc;
+}
+
+.dropdown-menu{
+    text-decoration: none;
+    display: none;
+    position: relative;
+    background-color: #bcbcbc;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+    
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#suivez-nous, #contact, #propos, #mentions {
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    color:black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    text-decoration: none;
+   font-size: 13px;
+   border:2px solid #ccc;
+}
+#mail {
+flex: 1;
+padding-right: 50px;
+   font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border-radius: 15px 20px;
+    box-shadow: 0 0 20px rgba(144, 158, 208, 0.5);
+    margin: 8px;
+    font-size: 13px;
+   border:2px solid #ccc;
+}
+
+/* Présentation */
+#bienvenue{
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+    color: black;
+     margin-left: 10px;
+     margin-left: 120px;
+}
+
+#pres {
+    
+    width: 35%;
+    height: 100%;
+    font-size: 15px;
+    margin-left: 120px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Page connexion */
+#titre-co{
+    color: #1a76a3;
+    font-size: 48px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lobster', sans-serif;
+   
+}
+#co-form {
+    background-color: hsla(0, 100%, 100%, 0.5);
+    color: #063851;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: #D9D9D9;
+    margin: auto;
+
+}
+#bouton-co{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 50px 5px 50px;
+    background: linear-gradient(to  bottom, #1693d2, #063851);
+    border-radius: 15px 20px;
+}
+
+#bouton-co:hover{
+     background: linear-gradient(to  top, #1693d2, #063851);
+}
+
+#pas-de-compte{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    margin-top: 100px;
+}
+
+ #creer-le{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #1693d2;
+    color: white;
+    background-color: #106792;
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+ }
+
+  #creer-le:hover{
+    border-color: white;
+ }
+
+ /* Page inscription */
+#titre-inscription{
+    color: #1693d2;
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+}
+#reserv-inscription{
+    background-color: hsla(0, 100%, 100%, 0.5);
+    border-radius: 10px;
+    border-color: #D9D9D9;
+    color: #063851;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    height: 80%;
+   margin:  auto;
+}
+#btn-envoyer{
+    text-decoration: none;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    background: linear-gradient(to  bottom, #1693d2, #063851);
+    border:2px solid white;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+
+  
+}
+#btn-envoyer:hover{
+background: linear-gradient(to  top, #1693d2, #063851);
+}
+/* Page Sortie du mois */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.poster-sortie{
+width: 150px;
+height: 250px;
+border: 2px solid black;
+box-shadow: 0 0 20px rgba(30, 33, 41, 0.5);
+}
+
+.para-sortie{
+text-align: center;
+width: 90%;
+height: 40%;
+background-color: rgba(204, 204, 204, 0.258);
+border-radius: 15px 20px;
+padding: 2% ;
+border: 1px solid black;
+margin-top: 10px;
+
+}
+
+.sortie-film{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.details{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to  bottom, #1693d2, #063851);
+    border:2px solid white;
+    font-size: 12px;
+    color: white;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+h4{
+    color: #063851;
+    font-size: 20px;
+    margin: 15px;
+    font-family: 'Lobster', sans-serif;
+}
+
+#titre-sortie{
+    color: #063851;
+    font-size: 30px;
+    margin: 15px;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+.type-film{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
