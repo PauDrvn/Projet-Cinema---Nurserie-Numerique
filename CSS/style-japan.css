@@ -137,6 +137,7 @@ padding-right: 50px;
     align-items: center;/* Centre verticalement */
     margin: 40px;
     border: 4px solid black;
+    transition: all 400ms ease;
 }
 
 #poster-clic1:hover{
